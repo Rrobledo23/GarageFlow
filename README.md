@@ -9,6 +9,16 @@ A React application for tracking garage repair jobs.
 Demo data is saved only in your current browser. Use fictional
 customer details when trying the app.
 
+## Screenshots
+
+### Add a repair job
+
+![GarageFlow repair job form](screenshots/garageflow-form.png)
+
+### Manage repair jobs
+
+![GarageFlow job list with search and status filters](screenshots/garageflow-jobs.png)
+
 ## Features
 
 - Add customer names, vehicle details, and repair descriptions.
