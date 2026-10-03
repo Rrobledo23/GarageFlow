@@ -1,16 +1,57 @@
-# React + Vite
+# GarageFlow
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React application for tracking garage repair jobs.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Add customer names, vehicle details, and repair descriptions.
+- Edit and remove individual jobs.
+- Mark jobs as completed or reopen them.
+- Search by customer name or vehicle.
+- Filter jobs by status.
+- View total, pending, and completed job counts.
+- Keep jobs saved between visits using browser localStorage.
 
-## React Compiler
+## Built with
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- JavaScript
+- CSS
+- Vite
 
-## Expanding the ESLint configuration
+## Run locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies:
+
+    npm install
+
+Start the development server:
+
+    npm run dev
+
+Open the Local address shown in the terminal.
+
+## Project checks
+
+Check code with ESLint:
+
+    npm run lint
+
+Create a production build:
+
+    npm run build
+
+Preview the production build locally:
+
+    npm run preview
+
+## Data storage
+
+Jobs are stored in the current browser using localStorage.
+They do not sync between computers or browsers.
+Clearing the site's browser data removes its saved jobs.
+
+## What I practiced
+
+React state, controlled inputs, conditional rendering, array
+operations, editing records, search, filtering, and localStorage.
