@@ -2,6 +2,13 @@
 
 A React application for tracking garage repair jobs.
 
+## Live demo
+
+[Try GarageFlow](https://rrobledo23.github.io/GarageFlow/)
+
+Demo data is saved only in your current browser. Use fictional
+customer details when trying the app.
+
 ## Features
 
 - Add customer names, vehicle details, and repair descriptions.
